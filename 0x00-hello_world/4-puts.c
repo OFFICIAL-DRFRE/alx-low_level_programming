@@ -4,10 +4,10 @@
  *
  * return always 0 (success)
  */
- 
+
 int main(void)
 {
-	char str="Programming is like building a multilingual pussle";
-	puts(str);
+	puts("Programming is like building a multilingual pussle");
+
 return (0);
 }
