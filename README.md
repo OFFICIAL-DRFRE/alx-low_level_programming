@@ -1,3 +1,7 @@
+---------------------------------------------------------------------
+This is the assignment for hello world
+--------------------------------------------------------------------
+
 Requirements
 C
 Allowed editors: vi, vim, emacs
