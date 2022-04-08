@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<stdlib.h>
+#include<time.h>
 
 /**
  * main - point of entry
@@ -18,9 +18,9 @@ int main(void)
 	/* Check if the random number is greater than 5 or less than 5*/
 	lastDigit = n % 10;
 
-	if ( lastDigit > 5 )
+	if (lastDigit > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
-	else if ( n == 0 )
+	else if (lastDigit == 0)
 		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 	else
 		printf("Last digit of %d is %d and is less than 6 and is not 0\n", n, lastDigit);
