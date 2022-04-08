@@ -1,11 +1,13 @@
-#incldue<stdio.h>
-#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+
 /**
  * main - point of entry
  *
  * Return: Always 0 (sucess)
  */
-int main (void)
+
+int main(void)
 {
 	int n;
 
