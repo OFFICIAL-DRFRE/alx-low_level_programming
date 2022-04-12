@@ -7,10 +7,9 @@
 int main(void)
 {
 	char h[] = "_putchar";
-	int s = sizeof(h);
 	int i;
 
-	for (i = 0; i < s; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(h[i]);
 
