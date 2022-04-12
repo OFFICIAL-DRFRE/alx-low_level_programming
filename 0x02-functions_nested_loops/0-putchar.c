@@ -12,10 +12,10 @@ int main(void)
 
 	for (i = 0; i < s; i++)
 	{
-		putchar(h[i]);
+		_putchar(h[i]);
 
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
