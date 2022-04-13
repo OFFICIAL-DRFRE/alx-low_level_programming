@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int limit;
+	int limit, sum;
 	int a;
 	int b;
 	int c;
@@ -21,7 +21,7 @@ int main(void)
 		a = b + c;
 		b = c + a;
 		c = a + b;
-		print (sum);
+		printf("%d, ", sum);
 	}
 return (0);
 }
