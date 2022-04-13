@@ -5,16 +5,37 @@
  */
 int main(void)
 {
-	unsigned long f1 = 1, f2 = 2;
-	int i, n = 98, next;
+	unsigned long f1b1 = 0, fib2 = 1, sum;
+	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
+	unsigned long half1, half2;
+	int i;
 
-	printf("%lu ,", f1);
-	for (i = 1; i <= n; i++)
+	for (i=; i < 92; i++)
 	{
-		printf("%lu ,", f2);
-		next = f1 + f2;
-		f1 = f2;
-		f2 = next;
+		sum = fib1 + fib2;
+		printf("%lu ,", sum);
+		fib1 = fib2;
+		fib2 = sum;
+	}
+
+	fib1_half1 = fib1 / 10000000000;
+	fib2_half1 = fib2 / 10000000000;
+	fib1_half2 = fib1 % 10000000000;
+	fib2_half2 = fib2 % 10000000000;
+
+	for (i = 93; count < 99; i++)
+	{
+		half1 = fib1_half1 + fib2_half1;
+		half2 = fib1_half2 + fib2_half2;
+		if (fib1_half2 + fib2_half2 > 9999999999)
+		{
+			half1 += 1;
+			half2 %= 10000000000;
+		}
+
+		printf("%lu%lu", half1, half2);
+		if (cont != 98)
+		printf(", ");
 
 	}
 return (0);
