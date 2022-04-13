@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	int f1 = 1, f2 = 2, i, n = 97, next;
+	int f1 = 1, f2 = 2, i, n = 98, next;
 
 	printf("%d ,", f1);
-	for (i = 1; i < n; i++) 
+	for (i = 1; i <= n; i++) 
 	{
 		printf("%d ,", f2);
 		next = f1 + f2;
