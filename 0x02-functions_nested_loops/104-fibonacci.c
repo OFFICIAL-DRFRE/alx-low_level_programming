@@ -6,7 +6,8 @@
 int main(void)
 {
 	int f1 = 0, f2 = 1, i, n=98, next;
-
+	
+	printf("%d ,",f1);
 	for (i = 1; i < n; i++) 
 	{
 		printf("%d ,", f2);
@@ -15,5 +16,5 @@ int main(void)
 		f2 = next;
 
 	}
-return (0):
+return (0);
 }
