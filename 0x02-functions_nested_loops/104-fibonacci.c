@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	int f1 = 1, f2 = 2, i, n = 98, next;
+	unsigned long f1 = 1, f2 = 2;
+	int i, n = 98, next;
 
-	printf("%d ,", f1);
-	for (i = 1; i <= n; i++) 
+	printf("%lu ,", f1);
+	for (i = 1; i <= n; i++)
 	{
-		printf("%d ,", f2);
+		printf("%lu ,", f2);
 		next = f1 + f2;
 		f1 = f2;
 		f2 = next;
