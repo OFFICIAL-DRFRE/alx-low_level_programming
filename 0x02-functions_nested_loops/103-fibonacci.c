@@ -18,9 +18,9 @@ int main(void)
 	while (c < limit)
 	{
 		sum += c;
-		a = b + c;
-		b = c + a;
-		c = a + b;
+		a = b;
+		b = c;
+		c = 4 * b + a;
 	}
 		
 	printf("%d", sum);
