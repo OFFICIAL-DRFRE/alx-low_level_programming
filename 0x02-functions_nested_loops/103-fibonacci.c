@@ -22,7 +22,7 @@ int main(void)
 		b = c;
 		c = 4 * b + a;
 	}
-	
+
 printf("%d\n", sum);
 
 return (0);
