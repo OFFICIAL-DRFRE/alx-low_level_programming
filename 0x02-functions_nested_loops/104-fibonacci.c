@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int f1 = 0, f2 = 1, i, n=98, next;
-	
-	printf("%d ,",f1);
+	int f1 = 1, f2 = 2, i, n = 97, next;
+
+	printf("%d ,", f1);
 	for (i = 1; i < n; i++) 
 	{
 		printf("%d ,", f2);
