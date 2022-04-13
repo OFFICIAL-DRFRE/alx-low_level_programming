@@ -7,22 +7,23 @@
 int main(void)
 {
 	int limit, sum;
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
 	limit = 4000000;
-	a = 1;
-	b = 1;
-	c = a + b;
-
-	while(c < limit)
+	a = 2;
+	b = 8;
+	c = 34;
+	sum = 10;
+	
+	while (c < limit)
 	{
 		sum += c;
 		a = b + c;
 		b = c + a;
 		c = a + b;
 	}
-		printf("%d", sum);
+		
+	printf("%d", sum);
+	
 	return (0);
 }
