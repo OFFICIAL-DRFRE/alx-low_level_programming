@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_rev - Prints a string in reverse.
  * @s: string to be reserved.
@@ -11,6 +12,7 @@ void print_rev(char *s)
 		len++;
 
 	for (i = len - 1; i >= 0; i--)
-		printf("%p", s[i]);
+		_putchar(s[i]);
+	_putchar('\n');
 }
 
