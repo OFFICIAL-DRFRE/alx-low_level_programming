@@ -1,14 +1,10 @@
 #include "main.h"
-
 /**
- * Print_number: print the numbers with putchar
- *only use _putchar to print
-* not allowed to use long
-* not allowed to use arrays/pointers
-* not allowed to hard-code special values
-* Return: Always 0
-*/
-
+ * print_number - prints an integer
+ * @n:.input integer parameter
+ *
+ *
+ */
 void print_number(int n)
 {
 	unsigned int i = n;
