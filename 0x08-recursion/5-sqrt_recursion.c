@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * check_sqrt - get if a number is sqrt of another
  *
@@ -6,12 +8,14 @@
  *
  * Return: sqrt of x, -1 otherwise
  */
+
 int check_sqrt(int x, int y)
 {
 	if (y * y > x)
 		return (-1);
-	if (y * y == x)
+	else if (y * y == x)
 		return (y);
+
 	return (check_sqrt(x, y + 1));
 }
 
@@ -26,5 +30,6 @@ int _sqrt_recursion(int x)
 {
 	if (x < 0)
 		return (-1);
+
 	return (check_sqrt(x, 0));
 }
